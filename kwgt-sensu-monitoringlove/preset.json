@@ -1,0 +1,36 @@
+{
+    "preset_info":{
+        "version":10,
+        "title":"#monitoringlove",
+        "xscreens":4,
+        "features":"",
+        "release":327725315,
+        "locked":false,
+        "pflags":0
+    },
+    "preset_root":{
+        "internal_type":"RootLayerModule",
+        "config_scale_value":100.0,
+        "viewgroup_items":[
+            {
+                "internal_type":"BitmapModule",
+                "position_offset_y":-80.0,
+                "bitmap_bitmap":"kfile://org.kustom.provider/bitmaps/IMG13f4058f2da8f225412d6c91a6390e44",
+                "bitmap_width":130.0,
+                "internal_title":"Logo"
+            },
+            {
+                "internal_type":"CurvedTextModule",
+                "text_expression":"#monitoringlove",
+                "text_size":70.0,
+                "text_family":"kfile://org.kustom.provider/fonts/Roboto-Medium.ttf",
+                "text_rotate_mode":"MANUAL",
+                "text_rotate_offset":356.0,
+                "text_skew":25.0,
+                "position_offset_y":80.0,
+                "position_offset_x":0.0,
+                "internal_title":"Hashtag"
+            }
+        ]
+    }
+}
