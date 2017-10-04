@@ -1,6 +1,7 @@
 # kwgt-sensu
 kwgt-sensu is a widget for your Android device that shows you the event counters. If no event exists, the number of clients is displayed.
 
+## Preview
 ![Sensu: A lot of events](screenshots/Nexus5.png)
 
 (The Nexus 5 device frame was created by Android and is licensed under [Creative Commons Attribution 2.5](https://creativecommons.org/licenses/by/2.5/))
