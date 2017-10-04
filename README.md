@@ -1,11 +1,15 @@
 # kwgt-sensu
 kwgt-sensu is a widget for your Android device that shows you the event counters. If no event exists, the number of clients is displayed.
 
+![Sensu: A lot of events](screenshots/Nexus5.png)
+
+(The Nexus 5 device frame was created by Android and is licensed under [Creative Commons Attribution 2.5](https://creativecommons.org/licenses/by/2.5/))
+
 ## What is required?
 You need KWGT Kustom Widget Pro. It is a WYSIWYG Widget Maker.
 
 You can buy KWGT Kustom at [Google Play](https://play.google.com/store/apps/details?id=org.kustom.widget.pro).
-
+AOSP
 ## How to build?
 A KWGT preset file is a zip file with an `.kwgt` extension. The `preset.json` file is the most important file. All settings are defined there.
 
