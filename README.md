@@ -9,7 +9,7 @@ kwgt-sensu is a widget for your Android device that shows you the event counters
 You need KWGT Kustom Widget Pro. It is a WYSIWYG Widget Maker.
 
 You can buy KWGT Kustom at [Google Play](https://play.google.com/store/apps/details?id=org.kustom.widget.pro).
-AOSP
+
 ## How to build?
 A KWGT preset file is a zip file with an `.kwgt` extension. The `preset.json` file is the most important file. All settings are defined there.
 
