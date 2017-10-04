@@ -2,7 +2,8 @@
     "preset_info":{
         "version":10,
         "title":"#monitoringlove",
-        "xscreens":4,
+        "width": 1000,
+        "height": 800,
         "features":"",
         "release":327725315,
         "locked":false,
