@@ -3,7 +3,7 @@
         "version":10,
         "title":"Sensu: Events",
         "author":"x70b1",
-        "width": 1000,
+        "width": 800,
         "height": 250,
         "features":"DOWNLOAD",
         "release":327725315,
@@ -78,12 +78,13 @@
                     "config_visible":"$if(gv(mode)\u003d1, always, remove)$"
                 },
                 "config_stacking":"HORIZONTAL_CENTER",
-                "config_margin":45.0,
                 "viewgroup_items":[
                     {
                         "internal_type":"StackLayerModule",
                         "config_stacking":"HORIZONTAL_CENTER",
                         "internal_title":"unknown",
+                        "position_padding_left": 25.0,
+                        "position_padding_right": 25.0,
                         "internal_toggles":{
                             "config_visible":10
                         },
@@ -97,12 +98,12 @@
                                 "icon_size":30.0,
                                 "icon_set":"kfile://org.kustom.provider/icons/fontawesome.ttf",
                                 "icon_icon":"question-circle",
-                                "paint_color":"#FF78909C"
+                                "paint_color":"#FF78909C",
+                                "position_padding_right": 10.0
                             },
                             {
                                 "internal_type":"TextModule",
                                 "internal_title":"Counter",
-                                "position_padding_left":8.0,
                                 "text_expression":"$gv(unknown)$",
                                 "text_size":20.0,
                                 "text_family":"kfile://org.kustom.provider/fonts/Roboto-Light.ttf"
@@ -113,6 +114,8 @@
                         "internal_type":"StackLayerModule",
                         "config_stacking":"HORIZONTAL_CENTER",
                         "internal_title":"warning",
+                        "position_padding_left": 25.0,
+                        "position_padding_right": 25.0,
                         "internal_toggles":{
                             "config_visible":10
                         },
@@ -126,12 +129,12 @@
                                 "icon_size":30.0,
                                 "icon_set":"kfile://org.kustom.provider/icons/fontawesome.ttf",
                                 "icon_icon":"exclamation-triangle, warning",
-                                "paint_color":"#FFFDD835"
+                                "paint_color":"#FFFDD835",
+                                "position_padding_right": 10.0
                             },
                             {
                                 "internal_type":"TextModule",
                                 "internal_title":"Counter",
-                                "position_padding_left":8.0,
                                 "text_expression":"$gv(warning)$",
                                 "text_size":20.0,
                                 "text_family":"kfile://org.kustom.provider/fonts/Roboto-Light.ttf"
@@ -142,6 +145,8 @@
                         "internal_type":"StackLayerModule",
                         "config_stacking":"HORIZONTAL_CENTER",
                         "internal_title":"critical",
+                        "position_padding_left": 25.0,
+                        "position_padding_right": 25.0,
                         "internal_toggles":{
                             "config_visible":10
                         },
@@ -155,12 +160,12 @@
                                 "icon_size":30.0,
                                 "icon_set":"kfile://org.kustom.provider/icons/fontawesome.ttf",
                                 "icon_icon":"times-circle",
-                                "paint_color":"#FFE53935"
+                                "paint_color":"#FFE53935",
+                                "position_padding_right": 10.0
                             },
                             {
                                 "internal_type":"TextModule",
                                 "internal_title":"Counter",
-                                "position_padding_left":8.0,
                                 "text_expression":"$gv(critical)$",
                                 "text_size":20.0,
                                 "text_family":"kfile://org.kustom.provider/fonts/Roboto-Light.ttf"
@@ -183,6 +188,8 @@
                         "internal_type":"StackLayerModule",
                         "config_stacking":"HORIZONTAL_CENTER",
                         "internal_title":"Clients",
+                        "position_padding_left": 25.0,
+                        "position_padding_right": 25.0,
                         "viewgroup_items":[
                             {
                                 "internal_type":"FontIconModule",
@@ -190,12 +197,12 @@
                                 "icon_size":30.0,
                                 "icon_set":"kfile://org.kustom.provider/icons/fontawesome.ttf",
                                 "icon_icon":"hdd-o",
-                                "paint_color":"#FF78909C"
+                                "paint_color":"#FF78909C",
+                                "position_padding_right": 10.0
                             },
                             {
                                 "internal_type":"TextModule",
                                 "internal_title":"Counter",
-                                "position_padding_left":8.0,
                                 "text_expression":"$gv(clients)$",
                                 "text_size":20.0,
                                 "text_family":"kfile://org.kustom.provider/fonts/Roboto-Light.ttf"
