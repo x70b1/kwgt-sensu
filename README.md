@@ -4,7 +4,7 @@ kwgt-sensu is a widget for your Android device that shows you the event counters
 ## Preview
 ![Sensu: A lot of events](screenshots/Nexus5.png)
 
-(The Nexus 5 device frame was created by Android and is licensed under [Creative Commons Attribution 2.5](https://creativecommons.org/licenses/by/2.5/))
+(The Nexus 5 device frame was created by Google Android and is licensed under [Creative Commons Attribution 2.5](https://creativecommons.org/licenses/by/2.5/))
 
 ## What is required?
 You need [KWGT Kustom Widget Maker](https://play.google.com/store/apps/details?id=org.kustom.widget) and [KWGT Kustom Widget Pro Key](https://play.google.com/store/apps/details?id=org.kustom.widget.pro).
