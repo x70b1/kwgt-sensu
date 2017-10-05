@@ -29,7 +29,12 @@
                 "text_rotate_mode":"MANUAL",
                 "text_rotate_offset":356.0,
                 "text_skew":25.0,
-                "internal_title":"Hashtag"
+                "internal_title":"Hashtag",
+                "fx_shadow": "OUTER",
+                "fx_shadow_color": "#55000000",
+                "fx_shadow_direction": 270.0,
+                "fx_shadow_distance": 5.0,
+                "fx_shadow_blur": 70
             }
         ]
     }
