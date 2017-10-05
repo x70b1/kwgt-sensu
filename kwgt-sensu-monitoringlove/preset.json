@@ -2,8 +2,8 @@
     "preset_info":{
         "version":10,
         "title":"#monitoringlove",
-        "width": 800,
-        "height": 800,
+        "width": 920,
+        "height": 760,
         "features":"",
         "release":327725315,
         "locked":false,
@@ -22,14 +22,13 @@
             },
             {
                 "internal_type":"CurvedTextModule",
+                "position_offset_y":80.0,
                 "text_expression":"#monitoringlove",
                 "text_size":70.0,
                 "text_family":"kfile://org.kustom.provider/fonts/Roboto-Medium.ttf",
                 "text_rotate_mode":"MANUAL",
                 "text_rotate_offset":356.0,
                 "text_skew":25.0,
-                "position_offset_y":80.0,
-                "position_offset_x":0.0,
                 "internal_title":"Hashtag"
             }
         ]
