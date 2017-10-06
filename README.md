@@ -1,5 +1,5 @@
 # kwgt-sensu
-kwgt-sensu is a widget for your Android device that shows you the event counters. If no event exists, the number of clients is displayed.
+kwgt-sensu is a widget for your Android device that shows you the event counters. If no event exists, the number of clients is displayed. In addition, you can switch to an overview.
 
 ## Preview
 ![Sensu: A lot of events](screenshots/Nexus5.png)
@@ -19,8 +19,10 @@ Actually, there are two widgets in this repository. `kwgt-sensu-monitoringlove` 
 Use the `build.sh` to generate the `.kwgt` files. Copy the files to your android device. Put them into the `Kustom/widgets/` path.
 
 ## How to use?
-View the [screenshots folder](screenshots/) to find out what this widget might look like.
+View the [screenshots](screenshots/) to find out what this widget might look like.
 
 Open your KWGT widget. You will need to set your API there. We use global variables. That makes it very simple. Go to `Globals` and set your API with address and port.
+
+With a click on one of the arrows the view can be changed. There is an overview, similar to the Uchiwa-Datacenter overview and an overview with the current events.
 
 You can tap the widget to reload the event data. Be patient. Sometimes it may take up to 10 seconds to load the events. You can set the default update interval in the KWGT menu.
