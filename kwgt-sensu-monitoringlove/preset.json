@@ -35,6 +35,23 @@
                 "fx_shadow_direction": 270.0,
                 "fx_shadow_distance": 5.0,
                 "fx_shadow_blur": 70
+            },
+            {
+               "internal_type":"CurvedTextModule",
+               "position_offset_y":145.0,
+               "text_expression":"kwgt-sensu",
+               "text_size":30.0,
+               "text_family":"kfile://org.kustom.provider/fonts/Roboto-Medium.ttf",
+               "text_rotate_mode":"MANUAL",
+               "text_rotate_offset":356.0,
+               "text_skew":25.0,
+               "internal_title":"Description",
+               "fx_shadow":"OUTER",
+               "fx_shadow_color":"#55000000",
+               "fx_shadow_direction":270.0,
+               "fx_shadow_distance":5.0,
+               "fx_shadow_blur":70,
+               "position_offset_x":-170.0
             }
         ]
     }
